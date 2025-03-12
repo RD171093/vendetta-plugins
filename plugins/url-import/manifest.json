@@ -1,14 +1,17 @@
 {
-  "name": "URL import",
-  "description": "Allows you to install plugins directly from a URL's action sheet.",
+  "name": "Message Logger",
+  "description": "Logs deleted messages locally and allows clearing them via settings.",
   "authors": [
     {
-      "name": "redstonekasi",
-      "id": "265064055490871297"
+      "name": "RD171093",
+      "id": "your_discord_id"
     }
   ],
-  "main": "src/index.js",
+  "version": "1.0.0",
   "vendetta": {
-    "icon": "ic_link"
-  }
+    "main": "src/index.ts",
+    "settings": "src/settings.ts"
+  },
+  "source": "https://github.com/RD171093/vendetta-plugins",
+  "update_url": "https://rd171093.github.io/vendetta-plugins/message-logger/manifest.json"
 }
